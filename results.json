@@ -1,0 +1,1367 @@
+[
+  {
+    "timestamp": "2016-11-09 22:00:01.721502", 
+    "testcases": [
+      {
+        "description": "Test splitter is used correctly to feed data to mappers", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nData was not split evenly among mappers", 
+        "name": "splitter", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that mr1 print the correct output on a small input with multiple mappers", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers, with mappers of 0\nUnable to open/read output file", 
+        "name": "small_input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests mr1 on a large input", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nCouldn't open/read output file", 
+        "name": "large_input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test one reducer is used correctly", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nUnable to open/read output file", 
+        "name": "reducer_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests that multiple mappers are used", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers with mappers of 0", 
+        "name": "test_mapper", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test one reducer is used correctly", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "name": "performance_test", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "revision": "70923", 
+    "checksum": "1ede3e3576238c82d0f00cdef30f372ad7a3ab7e  mr1.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h"
+  }, 
+  {
+    "timestamp": "2016-11-10 22:00:45.412502", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nData was not split evenly among mappers", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "splitter", 
+        "description": "Test splitter is used correctly to feed data to mappers"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers, with mappers of 0\nUnable to open/read output file", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "small_input", 
+        "description": "Test that mr1 print the correct output on a small input with multiple mappers"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nCouldn't open/read output file", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "large_input", 
+        "description": "Test that tests mr1 on a large input"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nUnable to open/read output file", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "reducer_test", 
+        "description": "Test one reducer is used correctly"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers with mappers of 0", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_mapper", 
+        "description": "Test that tests that multiple mappers are used"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "performance_test", 
+        "description": "Test one reducer is used correctly"
+      }
+    ], 
+    "checksum": "1ede3e3576238c82d0f00cdef30f372ad7a3ab7e  mr1.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h", 
+    "revision": "71942"
+  }, 
+  {
+    "timestamp": "2016-11-11 22:00:12.376633", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test splitter is used correctly to feed data to mappers", 
+        "name": "splitter", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nData was not split evenly among mappers"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that mr1 print the correct output on a small input with multiple mappers", 
+        "name": "small_input", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers, with mappers of 0\nUnable to open/read output file"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that tests mr1 on a large input", 
+        "name": "large_input", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nCouldn't open/read output file"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test one reducer is used correctly", 
+        "name": "reducer_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nUnable to open/read output file"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that tests that multiple mappers are used", 
+        "name": "test_mapper", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers with mappers of 0"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test one reducer is used correctly", 
+        "name": "performance_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files"
+      }
+    ], 
+    "revision": "72285", 
+    "checksum": "1ede3e3576238c82d0f00cdef30f372ad7a3ab7e  mr1.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h"
+  }, 
+  {
+    "timestamp": "2016-11-12 22:02:07.547311", 
+    "testcases": [
+      {
+        "description": "Test splitter is used correctly to feed data to mappers", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nData was not split evenly among mappers", 
+        "name": "splitter", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that mr1 print the correct output on a small input with multiple mappers", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers, with mappers of 0\nUnable to open/read output file", 
+        "name": "small_input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests mr1 on a large input", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nCouldn't open/read output file", 
+        "name": "large_input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test one reducer is used correctly", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nUnable to open/read output file", 
+        "name": "reducer_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests that multiple mappers are used", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers with mappers of 0", 
+        "name": "test_mapper", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test one reducer is used correctly", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "name": "performance_test", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "checksum": "1ede3e3576238c82d0f00cdef30f372ad7a3ab7e  mr1.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h", 
+    "revision": "72739"
+  }, 
+  {
+    "timestamp": "2016-11-13 22:00:21.936500", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "splitter", 
+        "description": "Test splitter is used correctly to feed data to mappers"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "small_input", 
+        "description": "Test that mr1 print the correct output on a small input with multiple mappers"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "large_input", 
+        "description": "Test that tests mr1 on a large input"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTest passed", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "reducer_test", 
+        "description": "Test one reducer is used correctly"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_mapper", 
+        "description": "Test that tests that multiple mappers are used"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTest passed", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "performance_test", 
+        "description": "Test one reducer is used correctly"
+      }
+    ], 
+    "revision": "73366", 
+    "checksum": "f80959a5037442659ee69ca1a979268efc7e6e3c  mr1.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h"
+  }, 
+  {
+    "timestamp": "2016-11-14 12:00:59.286203", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test splitter is used correctly to feed data to mappers", 
+        "name": "splitter", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that mr1 print the correct output on a small input with multiple mappers", 
+        "name": "small_input", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that tests mr1 on a large input", 
+        "name": "large_input", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test one reducer is used correctly", 
+        "name": "reducer_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTest passed"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that tests that multiple mappers are used", 
+        "name": "test_mapper", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test one reducer is used correctly", 
+        "name": "performance_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTest passed"
+      }
+    ], 
+    "checksum": "f80959a5037442659ee69ca1a979268efc7e6e3c  mr1.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h", 
+    "revision": "73692"
+  }, 
+  {
+    "timestamp": "2016-11-15 00:00:12.888100", 
+    "testcases": [
+      {
+        "description": "Test splitter is used correctly to feed data to mappers", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "splitter", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that mr1 print the correct output on a small input with multiple mappers", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "small_input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests mr1 on a large input", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "large_input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test one reducer is used correctly", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTest passed", 
+        "name": "reducer_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests that multiple mappers are used", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "name": "test_mapper", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test one reducer is used correctly", 
+        "ptsEarned": 1.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTest passed", 
+        "name": "performance_test", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "revision": "74726", 
+    "checksum": "f80959a5037442659ee69ca1a979268efc7e6e3c  mr1.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h"
+  }, 
+  {
+    "timestamp": "2016-11-15 18:10:40.280653", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "splitter", 
+        "description": "Test splitter is used correctly to feed data to mappers"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "small_input", 
+        "description": "Test that mr1 print the correct output on a small input with multiple mappers"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "large_input", 
+        "description": "Test that tests mr1 on a large input"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTest passed", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "reducer_test", 
+        "description": "Test one reducer is used correctly"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_mapper", 
+        "description": "Test that tests that multiple mappers are used"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTest passed", 
+        "ptsEarned": 1.0, 
+        "ptsPossible": 1.0, 
+        "name": "performance_test", 
+        "description": "Test one reducer is used correctly"
+      }
+    ], 
+    "checksum": "f80959a5037442659ee69ca1a979268efc7e6e3c  mr1.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h", 
+    "revision": "74726"
+  }, 
+  {
+    "timestamp": "2016-11-15 23:10:28.985669", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test splitter is used correctly to feed data to mappers", 
+        "name": "splitter", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that mr1 print the correct output on a small input with multiple mappers", 
+        "name": "small_input", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that tests mr1 on a large input", 
+        "name": "large_input", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test one reducer is used correctly", 
+        "name": "reducer_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTest passed"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test that tests that multiple mappers are used", 
+        "name": "test_mapper", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code.."
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "description": "Test one reducer is used correctly", 
+        "name": "performance_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTest passed"
+      }
+    ], 
+    "revision": "74726", 
+    "checksum": "f80959a5037442659ee69ca1a979268efc7e6e3c  mr1.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h"
+  }, 
+  {
+    "timestamp": "2016-11-16 12:30:05.940315", 
+    "testcases": [
+      {
+        "description": "Test splitter is used correctly to feed data to mappers", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nData was not split evenly among mappers", 
+        "name": "splitter", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test one reducer is used correctly", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nUnable to open/read output file", 
+        "name": "reducer_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests that multiple mappers are used", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers", 
+        "name": "test_mapper", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests that mkfifo is used", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mkfifo files", 
+        "name": "test_mkfifo", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test performance of slow reducer", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "name": "performance_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that shuffler outputs correctly to given files", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution", 
+        "name": "shuffler_test_small", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that mr2 print the correct output on a small input with multiple mappers", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file", 
+        "name": "small_input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests mr2 on a large input", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nIncorrect number of reducers\nCouldn't open/read output file", 
+        "name": "large_input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test performance of slow reducer", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "name": "performance_test2", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Memory test for mr2", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file\n==5917== Memcheck, a memory error detector\n==5917== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==5917== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==5917== Command: ././mr2 ././data/input_small.txt ./temp/output.out ././mapper_asciicount ././reducer_sum 2 2\n==5917== \n==5917== \n==5917== HEAP SUMMARY:\n==5917==     in use at exit: 0 bytes in 0 blocks\n==5917==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==5917== \n==5917== All heap blocks were freed -- no leaks are possible\n==5917== \n==5917== For counts of detected and suppressed errors, rerun with: -v\n==5917== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)", 
+        "name": "memory_mapreduce", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that shuffler outputs correctly to given files", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution\n", 
+        "name": "shuffler_memory", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "checksum": "8301e7b289ae86718bd4fd366398fb7226cb3e0a  mr2.c\nf3979b5fe69ac6c87bb50ab8a00a9aa9d88b901e  shuffler.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h", 
+    "revision": "75357"
+  }, 
+  {
+    "timestamp": "2016-11-16 22:00:28.879176", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nData was not split evenly among mappers", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "splitter", 
+        "description": "Test splitter is used correctly to feed data to mappers"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nUnable to open/read output file", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "reducer_test", 
+        "description": "Test one reducer is used correctly"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_mapper", 
+        "description": "Test that tests that multiple mappers are used"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mkfifo files", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_mkfifo", 
+        "description": "Test that tests that mkfifo is used"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "performance_test", 
+        "description": "Test performance of slow reducer"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "shuffler_test_small", 
+        "description": "Test that shuffler outputs correctly to given files"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "small_input", 
+        "description": "Test that mr2 print the correct output on a small input with multiple mappers"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nIncorrect number of reducers\nCouldn't open/read output file", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "large_input", 
+        "description": "Test that tests mr2 on a large input"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "performance_test2", 
+        "description": "Test performance of slow reducer"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file\n==15148== Memcheck, a memory error detector\n==15148== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==15148== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==15148== Command: ././mr2 ././data/input_small.txt ./temp/output.out ././mapper_asciicount ././reducer_sum 2 2\n==15148== \n==15148== \n==15148== HEAP SUMMARY:\n==15148==     in use at exit: 0 bytes in 0 blocks\n==15148==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==15148== \n==15148== All heap blocks were freed -- no leaks are possible\n==15148== \n==15148== For counts of detected and suppressed errors, rerun with: -v\n==15148== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "memory_mapreduce", 
+        "description": "Memory test for mr2"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution\n", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "shuffler_memory", 
+        "description": "Test that shuffler outputs correctly to given files"
+      }
+    ], 
+    "revision": "76112", 
+    "checksum": "8301e7b289ae86718bd4fd366398fb7226cb3e0a  mr2.c\nf3979b5fe69ac6c87bb50ab8a00a9aa9d88b901e  shuffler.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h"
+  }, 
+  {
+    "timestamp": "2016-11-18 09:15:45.750076", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test splitter is used correctly to feed data to mappers", 
+        "name": "splitter", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nData was not split evenly among mappers"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test one reducer is used correctly", 
+        "name": "reducer_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nUnable to open/read output file"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that tests that multiple mappers are used", 
+        "name": "test_mapper", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that tests that mkfifo is used", 
+        "name": "test_mkfifo", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mkfifo files"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test performance of slow reducer", 
+        "name": "performance_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that shuffler outputs correctly to given files", 
+        "name": "shuffler_test_small", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that mr2 print the correct output on a small input with multiple mappers", 
+        "name": "small_input", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that tests mr2 on a large input", 
+        "name": "large_input", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nIncorrect number of reducers\nCouldn't open/read output file"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test performance of slow reducer", 
+        "name": "performance_test2", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Memory test for mr2", 
+        "name": "memory_mapreduce", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file\n==4567== Memcheck, a memory error detector\n==4567== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==4567== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==4567== Command: ././mr2 ././data/input_small.txt ./temp/output.out ././mapper_asciicount ././reducer_sum 2 2\n==4567== \n==4567== \n==4567== HEAP SUMMARY:\n==4567==     in use at exit: 0 bytes in 0 blocks\n==4567==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==4567== \n==4567== All heap blocks were freed -- no leaks are possible\n==4567== \n==4567== For counts of detected and suppressed errors, rerun with: -v\n==4567== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that shuffler outputs correctly to given files", 
+        "name": "shuffler_memory", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution\n"
+      }
+    ], 
+    "checksum": "8301e7b289ae86718bd4fd366398fb7226cb3e0a  mr2.c\nf3979b5fe69ac6c87bb50ab8a00a9aa9d88b901e  shuffler.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h", 
+    "revision": "76629"
+  }, 
+  {
+    "timestamp": "2016-11-18 12:00:04.172857", 
+    "testcases": [
+      {
+        "description": "Test splitter is used correctly to feed data to mappers", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nData was not split evenly among mappers", 
+        "name": "splitter", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test one reducer is used correctly", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nUnable to open/read output file", 
+        "name": "reducer_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests that multiple mappers are used", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers", 
+        "name": "test_mapper", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests that mkfifo is used", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mkfifo files", 
+        "name": "test_mkfifo", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test performance of slow reducer", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "name": "performance_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that shuffler outputs correctly to given files", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution", 
+        "name": "shuffler_test_small", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that mr2 print the correct output on a small input with multiple mappers", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file", 
+        "name": "small_input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests mr2 on a large input", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nIncorrect number of reducers\nCouldn't open/read output file", 
+        "name": "large_input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test performance of slow reducer", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "name": "performance_test2", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Memory test for mr2", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file\n==15307== Memcheck, a memory error detector\n==15307== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==15307== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==15307== Command: ././mr2 ././data/input_small.txt ./temp/output.out ././mapper_asciicount ././reducer_sum 2 2\n==15307== \n==15307== \n==15307== HEAP SUMMARY:\n==15307==     in use at exit: 0 bytes in 0 blocks\n==15307==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==15307== \n==15307== All heap blocks were freed -- no leaks are possible\n==15307== \n==15307== For counts of detected and suppressed errors, rerun with: -v\n==15307== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)", 
+        "name": "memory_mapreduce", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that shuffler outputs correctly to given files", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution\n", 
+        "name": "shuffler_memory", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "revision": "76635", 
+    "checksum": "8301e7b289ae86718bd4fd366398fb7226cb3e0a  mr2.c\nf3979b5fe69ac6c87bb50ab8a00a9aa9d88b901e  shuffler.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h"
+  }, 
+  {
+    "timestamp": "2016-11-18 22:01:04.729370", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nData was not split evenly among mappers", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "splitter", 
+        "description": "Test splitter is used correctly to feed data to mappers"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nUnable to open/read output file", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "reducer_test", 
+        "description": "Test one reducer is used correctly"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_mapper", 
+        "description": "Test that tests that multiple mappers are used"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mkfifo files", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_mkfifo", 
+        "description": "Test that tests that mkfifo is used"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "performance_test", 
+        "description": "Test performance of slow reducer"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "shuffler_test_small", 
+        "description": "Test that shuffler outputs correctly to given files"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "small_input", 
+        "description": "Test that mr2 print the correct output on a small input with multiple mappers"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nIncorrect number of reducers\nCouldn't open/read output file", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "large_input", 
+        "description": "Test that tests mr2 on a large input"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "performance_test2", 
+        "description": "Test performance of slow reducer"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file\n==26073== Memcheck, a memory error detector\n==26073== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==26073== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==26073== Command: ././mr2 ././data/input_small.txt ./temp/output.out ././mapper_asciicount ././reducer_sum 2 2\n==26073== \n==26073== \n==26073== HEAP SUMMARY:\n==26073==     in use at exit: 0 bytes in 0 blocks\n==26073==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==26073== \n==26073== All heap blocks were freed -- no leaks are possible\n==26073== \n==26073== For counts of detected and suppressed errors, rerun with: -v\n==26073== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "memory_mapreduce", 
+        "description": "Memory test for mr2"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution\n", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "shuffler_memory", 
+        "description": "Test that shuffler outputs correctly to given files"
+      }
+    ], 
+    "checksum": "8301e7b289ae86718bd4fd366398fb7226cb3e0a  mr2.c\nf3979b5fe69ac6c87bb50ab8a00a9aa9d88b901e  shuffler.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h", 
+    "revision": "76708"
+  }, 
+  {
+    "timestamp": "2016-11-19 22:00:24.068327", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test splitter is used correctly to feed data to mappers", 
+        "name": "splitter", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nData was not split evenly among mappers"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test one reducer is used correctly", 
+        "name": "reducer_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nUnable to open/read output file"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that tests that multiple mappers are used", 
+        "name": "test_mapper", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that tests that mkfifo is used", 
+        "name": "test_mkfifo", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mkfifo files"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test performance of slow reducer", 
+        "name": "performance_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that shuffler outputs correctly to given files", 
+        "name": "shuffler_test_small", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that mr2 print the correct output on a small input with multiple mappers", 
+        "name": "small_input", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that tests mr2 on a large input", 
+        "name": "large_input", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nIncorrect number of reducers\nCouldn't open/read output file"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test performance of slow reducer", 
+        "name": "performance_test2", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Memory test for mr2", 
+        "name": "memory_mapreduce", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file\n==5242== Memcheck, a memory error detector\n==5242== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==5242== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==5242== Command: ././mr2 ././data/input_small.txt ./temp/output.out ././mapper_asciicount ././reducer_sum 2 2\n==5242== \n==5242== \n==5242== HEAP SUMMARY:\n==5242==     in use at exit: 0 bytes in 0 blocks\n==5242==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==5242== \n==5242== All heap blocks were freed -- no leaks are possible\n==5242== \n==5242== For counts of detected and suppressed errors, rerun with: -v\n==5242== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that shuffler outputs correctly to given files", 
+        "name": "shuffler_memory", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution\n"
+      }
+    ], 
+    "revision": "76770", 
+    "checksum": "8301e7b289ae86718bd4fd366398fb7226cb3e0a  mr2.c\nf3979b5fe69ac6c87bb50ab8a00a9aa9d88b901e  shuffler.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h"
+  }, 
+  {
+    "timestamp": "2016-11-20 22:01:23.258206", 
+    "testcases": [
+      {
+        "description": "Test splitter is used correctly to feed data to mappers", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nData was not split evenly among mappers", 
+        "name": "splitter", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test one reducer is used correctly", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nUnable to open/read output file", 
+        "name": "reducer_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests that multiple mappers are used", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers", 
+        "name": "test_mapper", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests that mkfifo is used", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mkfifo files", 
+        "name": "test_mkfifo", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test performance of slow reducer", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "name": "performance_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that shuffler outputs correctly to given files", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution", 
+        "name": "shuffler_test_small", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that mr2 print the correct output on a small input with multiple mappers", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file", 
+        "name": "small_input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests mr2 on a large input", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nIncorrect number of reducers\nCouldn't open/read output file", 
+        "name": "large_input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test performance of slow reducer", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "name": "performance_test2", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Memory test for mr2", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file\n==17127== Memcheck, a memory error detector\n==17127== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==17127== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==17127== Command: ././mr2 ././data/input_small.txt ./temp/output.out ././mapper_asciicount ././reducer_sum 2 2\n==17127== \n==17127== \n==17127== HEAP SUMMARY:\n==17127==     in use at exit: 0 bytes in 0 blocks\n==17127==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==17127== \n==17127== All heap blocks were freed -- no leaks are possible\n==17127== \n==17127== For counts of detected and suppressed errors, rerun with: -v\n==17127== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)", 
+        "name": "memory_mapreduce", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that shuffler outputs correctly to given files", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution\n", 
+        "name": "shuffler_memory", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "checksum": "8301e7b289ae86718bd4fd366398fb7226cb3e0a  mr2.c\nf3979b5fe69ac6c87bb50ab8a00a9aa9d88b901e  shuffler.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h", 
+    "revision": "76983"
+  }, 
+  {
+    "timestamp": "2016-11-27 00:46:08.826163", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nData was not split evenly among mappers", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "splitter", 
+        "description": "Test splitter is used correctly to feed data to mappers"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nUnable to open/read output file", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "reducer_test", 
+        "description": "Test one reducer is used correctly"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_mapper", 
+        "description": "Test that tests that multiple mappers are used"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mkfifo files", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "test_mkfifo", 
+        "description": "Test that tests that mkfifo is used"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "performance_test", 
+        "description": "Test performance of slow reducer"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "shuffler_test_small", 
+        "description": "Test that shuffler outputs correctly to given files"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "small_input", 
+        "description": "Test that mr2 print the correct output on a small input with multiple mappers"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nIncorrect number of reducers\nCouldn't open/read output file", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "large_input", 
+        "description": "Test that tests mr2 on a large input"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "performance_test2", 
+        "description": "Test performance of slow reducer"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file\n==1589== Memcheck, a memory error detector\n==1589== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==1589== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==1589== Command: ././mr2 ././data/input_small.txt ./temp/output.out ././mapper_asciicount ././reducer_sum 2 2\n==1589== \n==1589== \n==1589== HEAP SUMMARY:\n==1589==     in use at exit: 0 bytes in 0 blocks\n==1589==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==1589== \n==1589== All heap blocks were freed -- no leaks are possible\n==1589== \n==1589== For counts of detected and suppressed errors, rerun with: -v\n==1589== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "memory_mapreduce", 
+        "description": "Memory test for mr2"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution\n", 
+        "ptsEarned": 0.0, 
+        "ptsPossible": 1.0, 
+        "name": "shuffler_memory", 
+        "description": "Test that shuffler outputs correctly to given files"
+      }
+    ], 
+    "revision": "78062", 
+    "checksum": "8301e7b289ae86718bd4fd366398fb7226cb3e0a  mr2.c\nf3979b5fe69ac6c87bb50ab8a00a9aa9d88b901e  shuffler.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h"
+  }, 
+  {
+    "timestamp": "2016-11-27 23:23:50.768707", 
+    "testcases": [
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test splitter is used correctly to feed data to mappers", 
+        "name": "splitter", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nData was not split evenly among mappers"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test one reducer is used correctly", 
+        "name": "reducer_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nUnable to open/read output file"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that tests that multiple mappers are used", 
+        "name": "test_mapper", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that tests that mkfifo is used", 
+        "name": "test_mkfifo", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mkfifo files"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test performance of slow reducer", 
+        "name": "performance_test", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that shuffler outputs correctly to given files", 
+        "name": "shuffler_test_small", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that mr2 print the correct output on a small input with multiple mappers", 
+        "name": "small_input", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that tests mr2 on a large input", 
+        "name": "large_input", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nIncorrect number of reducers\nCouldn't open/read output file"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test performance of slow reducer", 
+        "name": "performance_test2", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Memory test for mr2", 
+        "name": "memory_mapreduce", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file\n==22007== Memcheck, a memory error detector\n==22007== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==22007== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==22007== Command: ././mr2 ././data/input_small.txt ./temp/output.out ././mapper_asciicount ././reducer_sum 2 2\n==22007== \n==22007== \n==22007== HEAP SUMMARY:\n==22007==     in use at exit: 0 bytes in 0 blocks\n==22007==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==22007== \n==22007== All heap blocks were freed -- no leaks are possible\n==22007== \n==22007== For counts of detected and suppressed errors, rerun with: -v\n==22007== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)"
+      }, 
+      {
+        "ptsPossible": 1.0, 
+        "ptsEarned": 0.0, 
+        "description": "Test that shuffler outputs correctly to given files", 
+        "name": "shuffler_memory", 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution\n"
+      }
+    ], 
+    "checksum": "8301e7b289ae86718bd4fd366398fb7226cb3e0a  mr2.c\nf3979b5fe69ac6c87bb50ab8a00a9aa9d88b901e  shuffler.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h", 
+    "revision": "79025"
+  }, 
+  {
+    "timestamp": "2016-11-28 12:00:23.457284", 
+    "testcases": [
+      {
+        "description": "Test splitter is used correctly to feed data to mappers", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nData was not split evenly among mappers", 
+        "name": "splitter", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test one reducer is used correctly", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nUnable to open/read output file", 
+        "name": "reducer_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests that multiple mappers are used", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers", 
+        "name": "test_mapper", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests that mkfifo is used", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mkfifo files", 
+        "name": "test_mkfifo", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test performance of slow reducer", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "name": "performance_test", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that shuffler outputs correctly to given files", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution", 
+        "name": "shuffler_test_small", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that mr2 print the correct output on a small input with multiple mappers", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file", 
+        "name": "small_input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that tests mr2 on a large input", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nIncorrect number of reducers\nCouldn't open/read output file", 
+        "name": "large_input", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test performance of slow reducer", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nCouldn't open/read output files", 
+        "name": "performance_test2", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Memory test for mr2", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nIncorrect number of mappers\nUnable to open/read output file\n==14572== Memcheck, a memory error detector\n==14572== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==14572== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==14572== Command: ././mr2 ././data/input_small.txt ./temp/output.out ././mapper_asciicount ././reducer_sum 2 2\n==14572== \n==14572== \n==14572== HEAP SUMMARY:\n==14572==     in use at exit: 0 bytes in 0 blocks\n==14572==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated\n==14572== \n==14572== All heap blocks were freed -- no leaks are possible\n==14572== \n==14572== For counts of detected and suppressed errors, rerun with: -v\n==14572== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)", 
+        "name": "memory_mapreduce", 
+        "ptsPossible": 1.0
+      }, 
+      {
+        "description": "Test that shuffler outputs correctly to given files", 
+        "ptsEarned": 0.0, 
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nOutput file did not match solution\nOutput file did not match solution\n", 
+        "name": "shuffler_memory", 
+        "ptsPossible": 1.0
+      }
+    ], 
+    "revision": "79256", 
+    "checksum": "8301e7b289ae86718bd4fd366398fb7226cb3e0a  mr2.c\nf3979b5fe69ac6c87bb50ab8a00a9aa9d88b901e  shuffler.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h"
+  }, 
+  {
+    "timestamp": "2016-11-29 00:00:34.120726", 
+    "testcases": [
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "splitter", 
+        "description": "Test splitter is used correctly to feed data to mappers"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTest passed", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "reducer_test", 
+        "description": "Test one reducer is used correctly"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_mapper", 
+        "description": "Test that tests that multiple mappers are used"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "test_mkfifo", 
+        "description": "Test that tests that mkfifo is used"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTest passed", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "performance_test", 
+        "description": "Test performance of slow reducer"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "shuffler_test_small", 
+        "description": "Test that shuffler outputs correctly to given files"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "small_input", 
+        "description": "Test that mr2 print the correct output on a small input with multiple mappers"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "large_input", 
+        "description": "Test that tests mr2 on a large input"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\nTest passed", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "performance_test2", 
+        "description": "Test performance of slow reducer"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n==8626== Memcheck, a memory error detector\n==8626== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.\n==8626== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info\n==8626== Command: ././mr2 ././data/input_small.txt ./temp/output.out ././mapper_asciicount ././reducer_sum 2 2\n==8626== \n==8626== \n==8626== HEAP SUMMARY:\n==8626==     in use at exit: 0 bytes in 0 blocks\n==8626==   total heap usage: 4 allocs, 4 frees, 218 bytes allocated\n==8626== \n==8626== All heap blocks were freed -- no leaks are possible\n==8626== \n==8626== For counts of detected and suppressed errors, rerun with: -v\n==8626== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "memory_mapreduce", 
+        "description": "Memory test for mr2"
+      }, 
+      {
+        "log": "Trying to compile your code...\nSuccessfully compiled your code..\n", 
+        "ptsPossible": 1.0, 
+        "ptsEarned": 1.0, 
+        "name": "shuffler_memory", 
+        "description": "Test that shuffler outputs correctly to given files"
+      }
+    ], 
+    "checksum": "c169e8baa60677fea31a9c2f283eb872d5fb7673  mr2.c\na9ab23df596cc7d18636bedf9ada7159ae48d482  shuffler.c\n132eba5cc41fa0a819ebd1c0e4427ac740b40284  core/common.c\n07cca03af33f6ef902db07f5fe2c6df7d186b0fb  core/common.h", 
+    "revision": "80211"
+  }
+]
